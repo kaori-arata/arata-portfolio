@@ -87,3 +87,12 @@ main {
 .about p {
     line-height: 1.8;
 }
+
+.philosophy {
+    padding: 4rem 0;
+}
+
+.philosophy p {
+    line-height: 1.8;
+    margin-bottom: 1.8rem;
+}
