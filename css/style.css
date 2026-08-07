@@ -72,3 +72,18 @@ main {
 .hero p {
     margin: 0;
 }
+
+.title {
+    display: inline-block;
+    font-size: 2.5rem;
+    line-height: 0.85;
+    border-bottom: 3px solid #FF9341
+}
+
+.about {
+    padding: 4rem 0;
+}
+
+.about p {
+    line-height: 1.8;
+}
