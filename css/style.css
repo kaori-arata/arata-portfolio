@@ -137,3 +137,12 @@ main {
 .skill li {
     line-height: 1.8;
 }
+
+.certifications {
+    padding: 4rem 0;
+}
+
+.certifications li {
+    margin: 1.5rem 0.7rem;
+    line-height: 1.8;
+}
