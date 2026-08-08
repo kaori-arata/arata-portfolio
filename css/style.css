@@ -134,6 +134,11 @@ main {
 }
 
 .cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.card {
     background-color: #f4f4f4;
     padding: 1rem 0.5rem;
     border-radius: 5px;
