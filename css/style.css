@@ -100,6 +100,14 @@ main {
     margin: 0;
 }
 
+.about,
+.philosophy,
+.projects,
+.skills,
+.certifications {
+    padding: 4rem 0;
+}
+
 .title {
     display: inline-block;
     font-size: 2.5rem;
@@ -107,16 +115,8 @@ main {
     border-bottom: 3px solid #FF9341;
 }
 
-.about {
-    padding: 4rem 0;
-}
-
 .about p {
     line-height: 1.8;
-}
-
-.philosophy {
-    padding: 4rem 0;
 }
 
 .philosophy p {
@@ -124,17 +124,11 @@ main {
     margin-bottom: 1.8rem;
 }
 
-.projects {
-    padding: 4rem 0;
-}
-
 .cards {
     background-color: #f4f4f4;
     padding: 1rem 0.5rem;
-    border-radius: 5px
+    border-radius: 5px;
 }
-
-
 
 .card p {
     line-height: 1.8;
@@ -152,20 +146,12 @@ main {
     list-style: none;
 }
 
-.skills {
-    padding: 4rem 0;
-}
-
 .skill {
     padding: 0.5rem;
 }
 
 .skill li {
     line-height: 1.8;
-}
-
-.certifications {
-    padding: 4rem 0;
 }
 
 .certifications li {
