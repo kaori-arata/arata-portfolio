@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -194,8 +196,8 @@ footer {
 
 @media (min-width: 768px) {
     main {
-    padding: 6rem 2.5rem 4rem;
-}
+        padding: 6rem 2.5rem 4rem;
+    }
 
 
     header {
@@ -203,9 +205,9 @@ footer {
     }
 
     nav ul {
-    display: flex;
-    gap: 1rem;
-    padding-right: 3rem;
+        display: flex;
+        gap: 1rem;
+        padding-right: 3rem;
     }
 
     .hero h2 {
@@ -215,14 +217,19 @@ footer {
     .hero p {
         font-size: 1.5rem;
     }
-    
+
     .cards {
         grid-template-columns: repeat(3, 1fr);
     }
 
     .grid-skill {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-}
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .skill {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    }
 }
