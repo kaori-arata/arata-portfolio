@@ -186,3 +186,15 @@ footer {
         transition: none;
     }
 }
+
+@media (min-width: 768px) {
+    header {
+        padding: 0.7rem 2rem;
+    }
+
+    nav ul {
+    display: flex;
+    gap: 1rem;
+    padding-right: 3rem;
+    }
+}
