@@ -215,4 +215,8 @@ footer {
     .hero p {
         font-size: 1.5rem;
     }
+    
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
