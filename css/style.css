@@ -64,6 +64,14 @@ nav {
     align-items: center;
 }
 
+nav li {
+    list-style: none;
+}
+
+.jp {
+    color: #e0955c;
+}
+
 main {
     padding: 6rem 1rem 4rem;
 }
