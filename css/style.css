@@ -207,6 +207,16 @@ footer {
     background-color: #000;
 }
 
+@media (max-width: 767px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-bar ul {
+        display: none;
+    }
+}
+
 @media (min-width: 768px) {
     main {
         padding: 6rem 2.5rem 4rem;
