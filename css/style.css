@@ -33,10 +33,6 @@ a:focus-visible {
     outline-offset: 3px;
 }
 
-a:active {
-    color: #e0955c;
-}
-
 .skip-link {
     position: absolute;
     left: -9999px;
@@ -88,7 +84,8 @@ nav li {
 }
 
 .jp {
-    color: #e0955c;
+    color: inherit;
+    border-bottom: 2px solid #FF9341;
 }
 
 main {
