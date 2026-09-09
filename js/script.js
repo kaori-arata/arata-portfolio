@@ -1,5 +1,6 @@
 const menuToggle = document.querySelector(".menu-toggle");
+const navBar = document.querySelector(".nav-bar");
 
 menuToggle.addEventListener("click", () => {
-    console.log("クリックされた！");
+    navBar.classList.toggle("is-open");
 });

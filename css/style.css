@@ -215,6 +215,10 @@ footer {
     .nav-bar {
         display: none;
     }
+
+    .nav-bar.is-open {
+        display: block;
+    }
 }
 
 @media (min-width: 768px) {
@@ -252,7 +256,7 @@ footer {
     }
 
     .skill {
-    background-color: #f4f4f4;
-    border-radius: 5px;
+        background-color: #f4f4f4;
+        border-radius: 5px;
     }
 }
