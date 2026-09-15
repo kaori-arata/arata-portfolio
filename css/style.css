@@ -83,7 +83,7 @@ nav li {
     list-style: none;
 }
 
-.jp {
+[aria-current="page"] {
     color: inherit;
     border-bottom: 2px solid #FF9341;
 }
