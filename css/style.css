@@ -257,6 +257,10 @@ footer {
         padding: 0;
     }
 
+    .nav-bar li {
+        margin-bottom: 1rem;
+    }
+
     .nav-bar.is-open {
         display: block;
     }
