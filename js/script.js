@@ -4,6 +4,7 @@ const language = document.documentElement.lang;
 
 menuToggle.addEventListener("click", () => {
    const isOpen = navBar.classList.toggle("is-open");
+   menuToggle.classList.toggle("is-open", isOpen);
    menuToggle.setAttribute("aria-expanded", isOpen);
    menuToggle.setAttribute(
         "aria-label",
