@@ -13,3 +13,16 @@ menuToggle.addEventListener("click", () => {
             : (isOpen ? "メニューを閉じる" : "メニューを開く")
     );
 });
+
+navBar.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+        navBar.classList.remove("is-open");
+        menuToggle.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+
+        menuToggle.setAttribute(
+            "aria-label",
+            language === "es" ? "Abrir menú" : "メニューを開く"
+        );
+    });
+});
