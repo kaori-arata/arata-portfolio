@@ -187,12 +187,15 @@ main {
 
 footer {
     background-color: #f4f4f4;
-    padding: 2rem;
-    padding-bottom: 3rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+}
+
+footer h2 {
+    margin: 0rem;
 }
 
 .contact-links {
