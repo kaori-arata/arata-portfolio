@@ -223,16 +223,15 @@ footer h2 {
 }
 
 .contact-links {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5rem;
-    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 }
 
-.contact-column {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+.contact-links svg {
+    width: 2rem;
+    height: 2rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
