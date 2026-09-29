@@ -181,11 +181,13 @@ main {
     line-height: 1.8;
 }
 
-.services h2 .brand-name {
+.services h2 .brand-name,
+.philosophy h2 .brand-name {
     font-weight: 900;
 }
 
-.services h2 .brand-name span {
+.services h2 .brand-name span,
+.philosophy h2 .brand-name span {
     display: inline-block;
     line-height: 0.85;
     border-bottom: 0.11em solid #ff9341;
